@@ -1,0 +1,304 @@
+html {
+    background-color: black;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+body {
+    margin: 0;
+}
+/* header code starts here */
+header {
+    background-image: url(background_mosaic_\ NEtflix-tyson-moultrie-BQTHOGNHo08-unsplash.jpg);
+    background-size: contain;
+    opacity: 0.5;
+   background-color: rgba(0, 0, 0, 0.6);  /* The darkening color layer */
+    background-blend-mode: darken;
+    height: 90vh;
+    width: 100%;
+}
+
+.netflix_homecontainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 9em;
+    /* height: 6.3em; */
+}
+.sign-in-btn {
+    margin-top: 2em;
+    height: 2.5em;
+    width: 6em;
+    border-radius: 0.4em;
+    background-color: rgb(229, 9, 20);
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+}
+.sign-in-btn:hover {
+    background-color: rgb(167, 29, 36);
+}
+
+.unlimited {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    font-weight: bold;
+}
+.box1 >h1 {
+    font-size: 4em;
+    margin: 0;
+}
+.box1 >p {
+    margin: 0;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+} 
+.unlimited >h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1em;
+
+}
+.emailBox > input {
+    height: 2.2em;
+    width: 20em;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: white;
+    border-radius: 0.2em;
+    border: 1px solid gray;
+    font-size: 1.4em;
+}
+.emailBox > button {
+    height: 3em;
+    width: 15em;
+    background-color: rgb(229, 9, 20);
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    border-radius: 0.2em;
+    font-size: 1em; 
+    cursor: pointer;
+}
+.emailBox > button:hover {
+    background-color: rgb(167, 29, 36);
+}
+/* header code ends here */
+
+main {
+    padding: 0 9em;
+}
+
+/* trending now */
+#trending >h3 {
+    font-size: 1.5em;
+}
+
+
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    gap: 10px;
+}
+.img-wrap {
+    position: relative;
+    display: inline-block;
+}
+.img-wrap img {
+    border-radius: 5px;
+    height: 20em;
+    width: 15em;
+    cursor: pointer; 
+    margin-bottom: 2em;
+}
+.numbers {
+    position: absolute;
+   font-size: 7em;
+   bottom: 18px;
+   left: -25px;
+   color: black;
+   -webkit-text-stroke: 0.5px white;
+}
+
+.img-wrap:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+/* join section starts here */
+#join {
+    /* box-sizing: border-box; */
+    width: 100%;
+    margin-top: 5em;
+
+}
+#join h3 {
+    margin-bottom: 0.8em;
+    font-size: 1.5em;
+}
+.boxes {
+    display: grid;                          /* corrections to the uploaded version */    
+    grid-auto-rows: 1fr;                    /* corrections to the uploaded version */    
+    grid-template-columns: repeat(4, 1fr);  /* corrections to the uploaded version */    
+    gap: 0.5em;
+    /* box-sizing: border-box; */
+   
+}
+.boxes >div {
+    border-radius: 1.7rem;
+    /* height: 17rem; */        /* corrections to the uploaded version */    
+    /* width: 20rem; */         /* corrections to the uploaded version */    
+    padding: 15px;
+    background-color: #1d1629;
+    box-sizing: border-box;      /* corrections to the uploaded version */    
+}
+.box-organizer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.box-organizer >div {
+    height: 90%;
+}
+.box-organizer >div>h1 {
+    font-size: 1.6rem;
+}
+.box-organizer >div>p {
+    align-self: center;
+}
+
+.box-organizer-images {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+}
+.boxImgs {
+    height: 4em;
+}
+
+/* join section ends here */
+
+#questions {
+    margin-top: 3.5em;
+}
+#questions h3 {
+    font-size: 1.5em;
+}
+.questionsSpace {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D2D2D;
+    height: 1.3em;
+    padding: 1em 0.7em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.questionsSpace:hover {
+    background-color: #414141;
+}
+.questionsSpace:active {
+    border: none;
+}
+.questionsSpace img {
+    height: 1.5em;
+    justify-self: center;
+}
+.questions-box-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 0.5em;
+}
+
+/* ready2watch starts here */
+.ready2watch {
+    justify-self: center;
+    margin-top: 4em;
+    gap: 0.5em;
+    padding: 0 9em;
+    text-wrap: nowrap;
+}
+.ready2watch p {
+    justify-self: center;;
+}
+.ready2watch input {
+    height: 2.5em;
+    width: 25em;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: white;
+    border-radius: 0.2em;
+    border: 1px solid gray;
+    font-size: 1.4em;
+}
+
+.ready2watch button {
+    height: 2.5em;
+    width: 8em;
+    background-color: rgb(229, 9, 20);
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    border-radius: 0.2em;
+    font-size: 1.5em; 
+    cursor: pointer;
+}
+.ready2watch button:hover {
+    background-color: rgb(167, 29, 36);
+} 
+/* ready2watch ends here */
+footer {
+    width: 100%;
+    color: gray;
+    padding: 0 9em;
+    margin: 5.5em 0;
+    box-sizing: border-box;
+}
+footer a {
+    color: gray;
+    font-size: 1em;
+}
+.contact {
+    display: flex;
+    width: 80%;
+    margin-top: 2em;
+    justify-content: space-between;
+}
+.contact div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+select {
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+    margin-top: 4em;
+    height: 2.5em;
+    width: 8em;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.netflix-nigeria {
+    font-size: 0.8em;
+}
+.netflix-nigeria p {
+    margin: 2em 0;
+}
+.netflix-nigeria p:first-child {
+    font-size: 1.1em;
+}
+
+
