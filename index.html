@@ -4,32 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
-    <link rel="icon" type="favicon" href="favicon.png">
+    <link rel="icon" type="favicon" href="favicon1.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <section id="heroSection">
+        <header>
             <div class="netflix_homecontainer">
-               <img src  ="./img/netflix-logo-large.png" alt="netflix icon">
+               <img src="./img/netflix-logo-large.png" alt="netflix icon">
                <button class="sign-in-btn" >Sign In</button>
             </div>
-            <div class="unlimited">
-                <div class="box1">
-                    <h1>Unlimited movies, TV <br> shows, and more</h1>
-                    <p>Starts at ₦2,500. Cancel anytime.</p>
-                </div>
-            <h3>Ready to watch? Enter your email to create or 
-                restart your membership.</h3>
-                <div class="emailBox">
-                    <input type="email" name="email" id="email" placeholder="Email address"> 
-                    <button>Get Started  <span>></span></button>
-                </div>
-            
-            </div>
-           
-            
-    </header>
+        </header>
 
+        <div class="unlimited">
+            <div class="box1">
+                <h1>Unlimited movies, TV <br> shows, and more</h1>
+                <p>Starts at ₦2,500. Cancel anytime.</p>
+            </div>
+            <h3>Ready to watch? Enter your email to create or 
+            restart your membership.</h3>
+            <div class="emailBox">
+                <input type="email" name="email" id="hero-email" placeholder="Email address"> 
+                <button>Get Started  <span>></span></button>
+            </div>
+        
+        </div>
+    </section>
     <main>
         <section id="trending">
             <h3>Trending Now</h3>
@@ -74,7 +74,7 @@
                 </div>
 
                 <div class="img-wrap">
-                    <img src="/img/bloodhounds.jpg" alt="" >
+                    <img src="./img/bloodhounds.jpg" alt="" >
                     <span class="numbers">9</span>
                 </div>
 
@@ -88,52 +88,52 @@
 
         <section id="join">
             <h3>More Reasons to Join</h3>
-            <div class="boxes">
+            <div class="box-organizer">
                
-                    <div class="box-organizer">
+                    <div class="boxes">
                         <div>
-                            <h1>Enjoy on your TV</h1>
+                            <h3>Enjoy on your TV</h3>
                             <p>Watch on Smart TVs, Playstation, Xbox, 
                             Chromecast, Apple TV, Blu-ray players, and more.</p>
                         </div>
-                        <div  class="box-organizer-images">
+                        <div  class="box-image">
                             <img class="boxImgs" src="./img/tv-icon.png" alt="television icon">
                         </div>
                         
                     </div>
 
-                    <div class="box-organizer">
+                    <div class="boxes">
                         <div>
-                            <h1>Download your shows to watch offline</h1>
+                            <h3>Download your shows to watch offline</h3>
                             <p>Save your favorites easily and always 
                                 have something to watch.</p>
                         </div>
-                        <div class="box-organizer-images">
+                        <div class="box-image">
                             <img class="boxImgs" src="./img/download-icon.png" alt="download icon" >
                         </div>
                         
                     </div>
 
-                    <div class="box-organizer">
+                    <div class="boxes">
                         <div>
-                            <h1>Watch everywhere</h1>
+                            <h3>Watch everywhere</h3>
                             <p>Stream unlimited movies and TV 
                             shows on your phone, tablet, laptop, and TV.</p>
                         </div>
-                        <div  class="box-organizer-images">
+                        <div  class="box-image">
                             <img class="boxImgs" src="./img/telescope-icon.png" alt="telescope icon">
                         </div>
                         
                     </div>
 
-                    <div class="box-organizer">
+                    <div class="boxes">
                         <div>
-                            <h1>Create profiles for kids</h1>
+                            <h3>Create profiles for kids</h3>
                         <p>Send kids on adventures with their favorite 
                             characters in a space made just for them — 
                             free with your membership.</p>
                         </div>
-                        <div  class="box-organizer-images">
+                        <div  class="box-image">
                             <img class="boxImgs" src="./img/trust-icon.png" 
                             alt="love icon above hand to signify trust">
                         </div>
@@ -150,7 +150,7 @@
                 <div class="questionsSpace">How much does Netflix cost?<img src="./img/plus-icon.png" alt="plus sign"></div>
                 <div class="questionsSpace">Where can I watch?<img src="./img/plus-icon.png" alt="plus sign"></div>
                 <div class="questionsSpace">How do I cancel?<img src="./img/plus-icon.png" alt="plus sign"></div>
-                <div class="questionsSpace">What can I watch on Netflix<img src="./img/plus-icon.png" alt="plus sign"></div>
+                <div class="questionsSpace">What can I watch on Netflix?<img src="./img/plus-icon.png" alt="plus sign"></div>
                 <div class="questionsSpace">Is Netflix good for kids?<img src="./img/plus-icon.png" alt="plus sign"></div>
             </div>
            
@@ -159,7 +159,7 @@
 
     <div class="ready2watch">
         <p>Ready to watch? Enter your email to create or restart your membership.</p>
-        <input type="email" name="email" id="email" placeholder="Email address"> <button>Get Started ></button>
+        <input type="email" name="email" id="footer-email" placeholder="Email address"> <button>Get Started ></button>
     </div>
 
     <footer>
@@ -191,7 +191,7 @@
         </div>
         
 
-        <select name="translate" id="translate"><img src="./icons8-translate-50.png" alt="translate icon" height="1.2em" width="1.2em">English
+        <select name="translate" id="translate">
             <option value="1">English</option>
         </select>
         <div class="netflix-nigeria">
